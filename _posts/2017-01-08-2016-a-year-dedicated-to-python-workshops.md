@@ -1,7 +1,14 @@
 ---
 layout: post
 title: 2016 A year dedicated to Python Workshops
-tag: pythonworkshop
+tag:
+  - python
+  - workshop
+  - pythonexpress
+excerpt: >
+  Beautiful 2017 has already started. While everybody is busy with preparing
+  resolutions for their new year I decided to look back and share my journey
+  here.
 ---
 
 Beautiful 2017 has already started. While everybody is busy with preparing 
@@ -13,80 +20,8 @@ took an oath to spread the word of Python. It was looking simple at first
 glance with a guess of getting less invitations. But the estimate went wrong.
 Below is the summary of yearly progress highlight with word of experience.
 
-
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/nv.d3.min.css">
-
-<style>
-    #chart svg {
-      height: 400px;
-    }
-
-    svg: {
-      display: block;
-    }
-
-    svg text {
-      font: normal 8px Impact;
-    }
-
-    .center {
-      text-align: center
-    }
-
-</style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-
-<script src="{{ site.url }}/assets/js/nv.d3.min.js"></script>
-
-<script>
-
-function GetData() {
-  return  [
-    {
-      "label": "Introduction to Django",
-      "value" : 1
-    },
-    {
-      "label": "My name is Python and I am not terrorist",
-      "value" : 1
-    },
-    {
-      "label": "Beginning with Python",
-      "value" : 2
-    },
-    {
-      "label": "Let's learn Python",
-      "value" : 5
-    },
-    {
-      "label": "Token based authentication system using JWT",
-      "value" : 4
-    },
-  ];
-}
-
-nv.addGraph(function() {
-  var chart = nv.models.pieChart()
-      .x(function(d) { return d.label })
-      .y(function(d) { return d.value })
-      .showLabels(true)
-      .labelType("value");
-
-  d3.select("#chart svg")
-      .datum(GetData())
-      .transition().duration(350)
-      .call(chart);
-
-  return chart;
-});
-
-</script>
-
-<div id="chart">
-  <svg></svg>
-</div>
-
+![Python workshop
+piechart]({{site.url}}/assets/images/python_workshop_piechart.png)
 
 During my last year I conducted 13 workshops at various colleges of
 state Gujarat and Rajasthan. 10 workshops were conducted targeting college
@@ -223,7 +158,7 @@ Photos
 ![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
 
 <p class="center">
-  At <a href="http://www.gweca.ac.in/web/">Government Women Engineering College Ajmer</a>
+  At <a href="http://www.gweca.ac.in">Government Women Engineering College Ajmer</a>
 </p>
 
 **- - -**
@@ -267,5 +202,5 @@ Waiting for nice invitations :)
 
 ###### Proofreader: [Farhaan Bukhsh](https://farhaanbukhsh.wordpress.com/)
 
-[python_express]: https://pythonexpress.in/
+[python_express]: https://pythonexpress.in
 [pydelhi_conf]: https://conference.pydelhi.org/

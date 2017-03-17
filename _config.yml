@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   my blog posts to identify my taste of writing.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.jaysinh.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jaysinhp
 github_username:  ultimatecoder
 
@@ -33,5 +33,12 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 google_analytics: UA-57792488-6
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Jaysinh Shukla"

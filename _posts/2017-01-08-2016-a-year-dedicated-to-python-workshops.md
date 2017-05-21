@@ -158,7 +158,7 @@ Photos
 ![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
 
 <p class="center">
-  At <a href="http://www.gweca.ac.in/web/">Government Women Engineering College Ajmer</a>
+  At <a href="http://www.gweca.ac.in">Government Women Engineering College Ajmer</a>
 </p>
 
 **- - -**
@@ -202,5 +202,5 @@ Waiting for nice invitations :)
 
 ###### Proofreader: [Farhaan Bukhsh](https://farhaanbukhsh.wordpress.com/)
 
-[python_express]: https://pythonexpress.in/
+[python_express]: https://pythonexpress.in
 [pydelhi_conf]: https://conference.pydelhi.org/

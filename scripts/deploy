@@ -1,8 +1,10 @@
 #!/bin/bash
 
-export JEKYLL_ENV=production
+export JEKYLL_ENV=production || exit
 
-bundle exec jekyll build --config _config_production.yml,_config.yml
+bundle install || exit
+
+bundle exec jekyll build --config _config_production.yml,_config.yml || exit
 
 chmod 600 ./keypair.pem || exit
 
